@@ -2,7 +2,7 @@
 //  F1_StatsApp.swift
 //  F1 Stats
 //
-//  Created by Cooper Hull on 6/17/22.
+//  Created by Cobre on 6/17/22.
 //
 
 import SwiftUI

@@ -11,6 +11,8 @@
 		0F60A1D8285E3B1200B23DCB /* Formula1-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F60A1D4285E3B1200B23DCB /* Formula1-Black.ttf */; };
 		0F60A1D9285E3B1200B23DCB /* Formula1-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F60A1D5285E3B1200B23DCB /* Formula1-Regular.ttf */; };
 		0F60A1DA285E3B1200B23DCB /* Formula1-Wide.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F60A1D6285E3B1200B23DCB /* Formula1-Wide.ttf */; };
+		0F7EB28C2862B0B200D962C3 /* DriverViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7EB28B2862B0B200D962C3 /* DriverViewModel.swift */; };
+		0F7EB28E2862B0D100D962C3 /* Drivers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7EB28D2862B0D100D962C3 /* Drivers.swift */; };
 		0FE27864285D5B68008B7E05 /* F1_StatsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE27863285D5B68008B7E05 /* F1_StatsApp.swift */; };
 		0FE27866285D5B68008B7E05 /* DriverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE27865285D5B68008B7E05 /* DriverView.swift */; };
 		0FE27868285D5B69008B7E05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FE27867285D5B69008B7E05 /* Assets.xcassets */; };
@@ -25,6 +27,8 @@
 		0F60A1D5285E3B1200B23DCB /* Formula1-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Formula1-Regular.ttf"; sourceTree = "<group>"; };
 		0F60A1D6285E3B1200B23DCB /* Formula1-Wide.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Formula1-Wide.ttf"; sourceTree = "<group>"; };
 		0F60A1DB285E3B9F00B23DCB /* F1-Stats-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "F1-Stats-Info.plist"; sourceTree = SOURCE_ROOT; };
+		0F7EB28B2862B0B200D962C3 /* DriverViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverViewModel.swift; sourceTree = "<group>"; };
+		0F7EB28D2862B0D100D962C3 /* Drivers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drivers.swift; sourceTree = "<group>"; };
 		0F921E8F285E4C9800D94021 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0FE27860285D5B68008B7E05 /* F1 Stats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "F1 Stats.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FE27863285D5B68008B7E05 /* F1_StatsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = F1_StatsApp.swift; sourceTree = "<group>"; };
@@ -81,6 +85,8 @@
 				0F60A1DB285E3B9F00B23DCB /* F1-Stats-Info.plist */,
 				0FE27863285D5B68008B7E05 /* F1_StatsApp.swift */,
 				0FE27865285D5B68008B7E05 /* DriverView.swift */,
+				0F7EB28B2862B0B200D962C3 /* DriverViewModel.swift */,
+				0F7EB28D2862B0D100D962C3 /* Drivers.swift */,
 				0FE2787D285D60A8008B7E05 /* ConstructorView.swift */,
 				0FE2787B285D6076008B7E05 /* MainView.swift */,
 				0FE27867285D5B69008B7E05 /* Assets.xcassets */,
@@ -171,8 +177,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F7EB28C2862B0B200D962C3 /* DriverViewModel.swift in Sources */,
 				0FE27866285D5B68008B7E05 /* DriverView.swift in Sources */,
 				0FE2787E285D60A8008B7E05 /* ConstructorView.swift in Sources */,
+				0F7EB28E2862B0D100D962C3 /* Drivers.swift in Sources */,
 				0FE2787C285D6076008B7E05 /* MainView.swift in Sources */,
 				0FE27864285D5B68008B7E05 /* F1_StatsApp.swift in Sources */,
 			);

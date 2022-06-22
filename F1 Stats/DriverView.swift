@@ -9,14 +9,14 @@ import SwiftUI
 
 
 struct DriverView: View {
-    
+
     struct Driver: Identifiable {
         let id = UUID()
         var name: String
         var team: String
         var points: Int
     }
-    
+
     let drivers = [
         Driver(name: "Max Verstappen", team: "Red Bull", points: 150),
         Driver(name: "Sergio Pérez", team: "Red Bull", points: 129),
@@ -40,17 +40,16 @@ struct DriverView: View {
         Driver(name: "Nico Hulkenberg", team: "Aston Martin", points: 0),
         Driver(name: "Nicholas Latifi", team: "Williams", points: 0)
     ]
-    
+
     var body: some View {
         NavigationView {
             List {
                 ForEach(drivers) { driver in
                     HStack {
                         VStack(alignment: .leading) {
-                            Text(driver.name)
+                            Text(driver.givenName)
                                 .font(.title2)
-                            
-                            Text(driver.team)
+                            Text(driver.familyName)
                                 .font(.body)
                         }
                         Spacer()
@@ -58,7 +57,6 @@ struct DriverView: View {
                     }
                 }
             }.navigationTitle("Drivers")
-            
         }
     }
 }
