@@ -62,8 +62,8 @@ struct DriverView: View {
 }
 
 
-struct DriverView_Previews: PreviewProvider {
-    static var previews: some View {
-        DriverView()
-    }
-}
+//struct DriverView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        DriverView()
+//    }
+//}
