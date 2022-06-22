@@ -29,6 +29,7 @@
 		0F60A1DB285E3B9F00B23DCB /* F1-Stats-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "F1-Stats-Info.plist"; sourceTree = SOURCE_ROOT; };
 		0F7EB28B2862B0B200D962C3 /* DriverViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverViewModel.swift; sourceTree = "<group>"; };
 		0F7EB28D2862B0D100D962C3 /* Drivers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drivers.swift; sourceTree = "<group>"; };
+		0F7EB28F2862B22E00D962C3 /* Drivers.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Drivers.json; sourceTree = "<group>"; };
 		0F921E8F285E4C9800D94021 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0FE27860285D5B68008B7E05 /* F1 Stats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "F1 Stats.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FE27863285D5B68008B7E05 /* F1_StatsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = F1_StatsApp.swift; sourceTree = "<group>"; };
@@ -64,6 +65,7 @@
 		0FE27857285D5B68008B7E05 = {
 			isa = PBXGroup;
 			children = (
+				0F7EB28F2862B22E00D962C3 /* Drivers.json */,
 				0F921E8F285E4C9800D94021 /* README.md */,
 				0F60A1D2285E3AFD00B23DCB /* Fonts */,
 				0FE27862285D5B68008B7E05 /* F1 Stats */,

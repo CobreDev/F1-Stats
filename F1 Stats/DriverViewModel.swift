@@ -7,6 +7,11 @@
 
 import Foundation
 
+// Structure for dynamically changing the year...will implement later
+
+//let currentYear = Calendar.current.component(.year, from: Date())
+//let driversURL = "http://ergast.com/api/f1/\(currentYear)/drivers.json"
+
 class apiCall {
     func getUserComments(completion:@escaping ([Drivers]) -> ()) {
         guard let url = URL(string: "http://ergast.com/api/f1/2022/drivers.json") else { return }
@@ -19,7 +24,7 @@ class apiCall {
             
             DispatchQueue.main.async {
 //                completion(drivers)
-                completion(drivers.mrdata.drivertable.drivers)
+                completion([drivers.mrdata.drivertable.drivers])
             }
         }
         .resume()
